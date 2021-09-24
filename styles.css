@@ -1,0 +1,14 @@
+/** Cascading Style Sheets */
+h1 {
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+}
