@@ -1,14 +1,44 @@
 /** Cascading Style Sheets */
-h1 {
+.headline {
     font-size: 3rem;
-    font-family:'Times New Roman', Times, serif;
-    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    color: white;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 20%;
+    background-image: url("https://www.chapman.edu/admission/_files/undergrad/images/home/memorial-lawn-homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio {
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
     text-align: center;
 }
 
+h2 {
+    color: royalblue;
+}
+
 p {
+    font-size: 24px;
+    white-space: pre-line;
+}
+
+.projects {
     font-size: 2rem;
-    font-family:'Times New Roman', Times, serif;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.contact_information {
+    display:flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
 }
